@@ -12,11 +12,13 @@ while (!stop) {
     }
 }
 
-numberList.sort(function (a,b) {
-    return b - a;
+numberList.sort(function(a, b) {return b - a});
+numberList.forEach((number) => {
+    console.log(number);
 })
-numberList.reverse()
-for (num of numberList) {
-    console.log(num);
-}
+
+
+
+
+
 

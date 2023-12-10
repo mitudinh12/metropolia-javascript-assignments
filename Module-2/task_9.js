@@ -14,4 +14,5 @@ let numberList = [34,54,65,34,90,44,67,24];
 let evenList = even(numberList);
 
 // document.getElementById('target').innerHTML = evenList;
+console.log(numberList)
 console.log(evenList)
